@@ -5,11 +5,6 @@ http = require 'http'
 express = require 'express'
 ca = require 'connect-assets'
 request = require 'request'
-cheerio = require 'cheerio'
-_s = require 'underscore.string'
-geocoder = require 'geocoder'
-sleep = require 'sleep'
-winston = require 'winston'
 log = require('logule').init(module)
 
 app = express()
